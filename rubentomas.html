@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algoritmos em javascript separador</title>
+</head>
+<body>
+    <h1> o meu primeiro algoritmo<br>
+         em java</h1>
+    <p> isto é um paragrafo</p>
+    <p>Outro paragrafo, que bonito é.</p>
+
+<script>
+    // document.write('ola mundo<br>')
+    // document.write("outra frase<br>")
+    // alert('mensagem de alerta')
+    // console.log('uma mensagem na consola do HTML')
+    // document.getElementById('demo')
+
+    // const nome= "ruben";
+    // document.write(nome+"<br>" );
+    
+    // const num1=10;
+    // const num2=5;
+    // let total= (num1+num2) * 2;
+    // document.write("total = "+ total + "<br>" )
+    // document.write("tou quase a perceber disto <br>")
+
+    // const num3=parseInt( prompt ("escreva um numero: "));
+    // const num4=parseInt( prompt ("escreva outro numero " ));
+    // let total=num3+num4;
+    // document.write("A soma é: "+total+"<br>");
+
+    // const aluno=prompt("insira o seu nome:");
+    // const nota1=parseFloat(prompt("insira a nota 1:"));
+    // const nota2=parseFloat(prompt("insira nota 2: "));
+    // const nota3=parseFloat(prompt("insira a nota 3: "));
+    // let media= (nota1+nota2+nota3)/3;
+    // if (media >= 9.5)
+    // document.write('<p style= "color: green"> O Aluno '+aluno+' foi aprovado com '+media+' valores<p/><br>');
+    // else
+    // document.write('<p style="color:red"> O aluno '+aluno+' foi reprovado com '+media+' valores </p>');
+
+    // const aluno=prompt("insira o seu nome:");
+    // const genero=prompt("insira o seu sexo: (M/F)");
+    // const nota1=parseFloat(prompt("insira a nota 1:"));
+    // const nota2=parseFloat(prompt("insira nota 2: "));
+    // const nota3=parseFloat(prompt("insira a nota 3: "));
+    // let media= (nota1+nota2+nota3)/3;
+    // switch (genero) {
+    //     case 'F':
+    //       if(media>=9.5)
+    //       {
+    //         document.write('<h2 style="color:green"> '+aluno+' aprovada com '+media+' valores </h2>');
+    //       }  
+    //       else
+    //       {
+    //         document.write('<h2 style="color:red"> '+aluno+' reprovada com '+media+' valores </h2>');
+    //       }
+    //         break;
+
+    //     case 'M':
+    //         if(media>=9.5)
+    //         {
+    //             document.write('<h2 style="color:green"> '+aluno+' aprovado com '+media+' valores </h2>' );
+    //         }
+    //         else
+    //         {
+    //             document.write('<h2 style="color:red"> '+aluno+' reprovado com '+media+' valores </h2>');
+    //         }
+    //         break;
+
+    
+    //     default: document.write('<h3 style="color:red"> Género inválido, pff escrever com maiusculas </h3>');
+    //         break;
+    // }
+    
+    // const aluno=prompt("insira o seu nome:");
+    // const genero=prompt("insira o seu sexo: (M/F)");
+    // const nota1=parseFloat(prompt("insira a nota 1:"));
+    // const nota2=parseFloat(prompt("insira nota 2: "));
+    // const nota3=parseFloat(prompt("insira a nota 3: "));
+    // let media= (nota1+nota2+nota3)/3;
+
+    // if(media<=5)
+    //       {
+    //         document.write('<h2 style="color:red"> '+aluno+' reprovada com um aproveitamento mau. </h2>');
+    //       }  
+    // else if(media<=10)
+    //       {
+    //         document.write('<h2 style="color:red"> '+aluno+' reprovada com um aproveitamento insuficiente </h2>');
+    //       }  
+          
+    // else if(media<= 15)
+    //       {
+    //         document.write('<h2 style="color:green"> '+aluno+' aprovada com um aproveitamento suficiente </h2>');
+    //       }  
+    // else if(media<= 18)
+    //       {
+    //         document.write('<h2 style="color:green"> '+aluno+' aprovada com um aproveitamento bom </h2>');
+    //       }  
+    // else if (media<= 20)
+    //       {
+    //         document.write('<h2 style="color:green"> '+aluno+' aprovada com um aproveitamento muito bom </h2>');
+    //       }  
+//----------------------------------------------------------------------------------------------------------------------------------------------
+
+const aluno=prompt("insira o seu nome:");
+    const genero=prompt("insira o seu sexo: (M/F)");
+    const nota1=parseFloat(prompt("insira a nota 1:"));
+    const nota2=parseFloat(prompt("insira nota 2: "));
+    const nota3=parseFloat(prompt("insira a nota 3: "));
+    let media= (nota1+nota2+nota3)/3;
+    switch (genero) {
+        case 'F':
+        if(media<=5)
+          {
+            document.write('<h2 style="color:red"> '+aluno+' reprovada com um aproveitamento mau. </h2>');
+          }  
+    else if(media<=10)
+          {
+            document.write('<h2 style="color:red"> '+aluno+' reprovada com um aproveitamento insuficiente </h2>');
+          }  
+          
+    else if(media<= 15)
+          {
+            document.write('<h2 style="color:green"> '+aluno+' aprovada com um aproveitamento suficiente </h2>');
+          }  
+    else if(media<= 18)
+          {
+            document.write('<h2 style="color:green"> '+aluno+' aprovada com um aproveitamento bom </h2>');
+          }  
+    else if (media<= 20)
+          {
+            document.write('<h2 style="color:green"> '+aluno+' aprovada com um aproveitamento muito bom </h2>');
+          }  
+            break;
+
+        case 'M':
+        if(media<=5)
+          {
+            document.write('<h2 style="color:red"> '+aluno+' reprovado com um aproveitamento mau. </h2>');
+          }  
+    else if(media<=10)
+          {
+            document.write('<h2 style="color:red"> '+aluno+' reprovado com um aproveitamento insuficiente </h2>');
+          }  
+          
+    else if(media<= 15)
+          {
+            document.write('<h2 style="color:green"> '+aluno+' aprovado com um aproveitamento suficiente </h2>');
+          }  
+    else if(media<= 18)
+          {
+            document.write('<h2 style="color:green"> '+aluno+' aprovado com um aproveitamento bom </h2>');
+          }  
+    else if (media<= 20)
+          {
+            document.write('<h2 style="color:green"> '+aluno+' aprovado com um aproveitamento muito bom </h2>');
+          }  
+            break;
+
+    
+        default: document.write('<h3 style="color:red"> Género inválido, pff escrever com maiusculas </h3>');
+            break;
+    }
+
+</script>    
+    
+</body>
+</html>
